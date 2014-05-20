@@ -31,7 +31,7 @@ h1 { margin: 0; padding: 0 10px 10px; font-size: 24px; }
 #menu li a{
   display: block;
   padding: 12px 0 10px;
-  background: #33f;
+  background: #35e;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -59,7 +59,7 @@ h1 { margin: 0; padding: 0 10px 10px; font-size: 24px; }
     display: block;
     position: relative;
     width: 100%;
-    background: #33f;
+    background: #35e;
   }
   #toggle a{
     display: block;
@@ -89,7 +89,7 @@ h1 { margin: 0; padding: 0 10px 10px; font-size: 24px; }
     left: 10px;
     width: 20px;
     height: 4px;
-    background: #222;
+    background: #35e;
   }
   #toggle a:before{
     margin-top: -6px;
