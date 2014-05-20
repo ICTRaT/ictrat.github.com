@@ -31,7 +31,7 @@ h1 { margin: 0; padding: 0 10px 10px; font-size: 24px; }
 #menu li a{
   display: block;
   padding: 12px 0 10px;
-  background: #339;
+  background: #33f;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -59,7 +59,7 @@ h1 { margin: 0; padding: 0 10px 10px; font-size: 24px; }
     display: block;
     position: relative;
     width: 100%;
-    background: #222;
+    background: #33f;
   }
   #toggle a{
     display: block;
