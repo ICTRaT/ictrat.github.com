@@ -1,34 +1,36 @@
 ﻿<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN'>
 <html lang = "ja">
 <head>
-<meta charset="UTF-8">
-<title>メニューテスト</title>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=3.8.1"></script>
-<link rel="stylesheet" href="menu.css" type="text/css" />
-<script type="text/javascript" src="menu.js"></script>
+	<meta charset="UTF-8">
+	<title>メニューテスト</title>
+	<link rel="stylesheet" href="maincss.css" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript" src="func.js"></script>
 </head>
 <body>
-<div class="header">
-	<h1>sample</h1>
-</div>
-<div id="toggle">
-	<a href="./">ICTR@T</a>
-</div>
-<div id="menu-box">
-		<ul id="menu" class="">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About us</a></li>
-			<li><a href="#">Members</a></li>
-			<li><a href="#">Log</a></li>
-			<li><a href="#">Access</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Contact us</a></li>
-			<li><a href="#">Links</a></li>
+	<div class="header">
+		<h1>情報通信研究Project</h1>
+	</div>
+
+	<div id="toggle">
+		<a href="./">Menu</a>
+	</div>
+
+	<div id="menu-box">
+		<ul id="menu">
+			<li class="switchButton" title="home"><a>Home</a></li>
+			<li class="switchButton" title="about"><a>About us</a></li>
+			<li class="switchButton" title="member"><a>Members</a></li>
+			<li class="switchButton" title="log"><a>Log</a></li>
+			<li class="switchButton" title="access"><a>Access</a></li>
+			<li class="switchButton" title="faq"><a>FAQ</a></li>
+			<li class="switchButton" title="contact"><a>Contact us</a></li>
+			<li class="switchButton" title="link"><a>Links</a></li>
 		</ul>
-</div>
-<div class="main">
-メインコンテンツ
-</div>
+	</div>
+
+	<div class="main" id="mainContents">
+	</div>
 
 </body></html>
 
