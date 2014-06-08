@@ -11,7 +11,7 @@ $(document).ready(function(){
 	//クリックで各コンテンツを切り替え
 	$('.switch').click(function(){
 		var loadContents = $(this).attr('title');
-		$('#mainContents').load(loadContents+'.html');
+		$('#log').load(loadContents+'.html');
 	});
 
 	//menuクリック時の動作
