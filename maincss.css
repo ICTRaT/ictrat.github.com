@@ -3,6 +3,11 @@ body { margin: 0; padding: 0; color: #222; font-size : 13px; font-family: "ƒqƒ‰ƒ
 .header { width: 100%; max-width: 960px; margin: auto; padding: 0; }
 .footer { width: 100%; max-width: 960px; margin: auto; padding: 0 0 5px; }
 
+#mainContents{
+	padding: 5px;
+}
+
+
 h1, h2 {
 	font-family: verdana, arial, helvetica, Sans-Serif;
 	color: #000000;
