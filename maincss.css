@@ -1,19 +1,25 @@
 body { margin: 0; padding: 0; color: #222; font-size : 13px; font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; }
 
-.header { width: 100%; max-width: 960px; margin: 0 auto; padding: 30px 0 0; }
-.footer { width: 100%; max-width: 960px; margin: 0 auto; padding: 0 0 30px; }
+.header { width: 100%; max-width: 960px; margin: auto; padding: 0; }
+.footer { width: 100%; max-width: 960px; margin: auto; padding: 0 0 5px; }
 
 h1, h2 {
 	font-family: verdana, arial, helvetica, Sans-Serif;
 	color: #000000;
 	background-color: #DDDDDD;
 	padding: 0.3em;
-	margin: 1px;
+	margin: 5px;
 	margin-bottom: 7px;
+}
+p{
+	padding: 0.3em;
+	margin: 5px;
+	margin-bottom: 7px;
+
 }
 
 div{
-	margin: 5px;
+	margin: 5px auto;
 }
 
 
@@ -21,7 +27,7 @@ div{
 	clear: both;
 	width: 100%;
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 5;
 	padding: 30px 0;
 	background: #999;
 }
